@@ -28,14 +28,18 @@
 // Dichiariamo chi ha vinto.
 
 const sceltaUser = prompt("Pari o dispari?");
-console.log(sceltaUser);
     if (sceltaUser != "pari" && "dispari") {
         alert("Devi scegliere pari o dispari babbuino!")
     }
-console.log("l'utente ha scelto " + sceltaUser);
+console.log("l'utente ha scelto: " + sceltaUser);
+    if (sceltaUser == "pari") {
+        console.log("Il pc ha scelto: dispari");
+    } else if (sceltaUser == "dispari") {
+        console.log("Il pc ha scelto: pari");
+    }
+
 
 const numeroUser = parseInt(prompt("Inserisci un numero da 1 a 5"));
-console.log(numeroUser);
     if (numeroUser > 5) {
         alert("Devi scegliere un numero da 1 a 5 cretino!")
     }
