@@ -27,10 +27,14 @@
 // Sommiamo i due numeri Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione) 
 // Dichiariamo chi ha vinto.
 
-const sceltaUser = prompt("Pari o dispari?").toLowerCase();
-    if (sceltaUser != "pari" && sceltaUser != "dispari") {
-        alert("Devi scegliere pari o dispari babbuino!")
+let sceltaUser = "";
+let numeroUser = 0;
+
+do {
+sceltaUser = prompt("Pari o dispari?").toLowerCase();
+} while (sceltaUser != "pari" && sceltaUser != "dispari"){   
     }
+
 console.log("l'utente ha scelto: " + sceltaUser);
     if (sceltaUser == "pari") {
         console.log("Il pc ha scelto: dispari");
@@ -38,10 +42,9 @@ console.log("l'utente ha scelto: " + sceltaUser);
         console.log("Il pc ha scelto: pari");
     }
 
-
-const numeroUser = parseInt(prompt("Inserisci un numero da 1 a 5"));
-    if (numeroUser < 1 || numeroUser > 5) {
-        alert("Devi scegliere un numero da 1 a 5 cretino!")
+do {
+numeroUser = parseInt(prompt("Inserisci un numero da 1 a 5"));
+  }  while(numeroUser < 1 || numeroUser > 5) {
     }
 console.log("l'utente ha scelto " + numeroUser);
 
