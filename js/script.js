@@ -27,7 +27,7 @@
 // Sommiamo i due numeri Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione) 
 // Dichiariamo chi ha vinto.
 
-const sceltaUser = prompt("Pari o dispari?");
+const sceltaUser = prompt("Pari o dispari?").toLowerCase();
     if (sceltaUser != "pari" && sceltaUser != "dispari") {
         alert("Devi scegliere pari o dispari babbuino!")
     }
