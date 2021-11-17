@@ -56,13 +56,13 @@ console.log("la somma dei numeri è: " + sommaNumeri);
 
 
 if (sceltaUser == "pari" && sommaNumeri % 2 == 0){
-    console.log("userWin");
+    console.log("L'utente vince");
 } else if (sceltaUser == "dispari" && sommaNumeri % 2 == 0) {
-    console.log("pcWin");
+    console.log("Pc vince");
 } else if (sceltaUser == "pari" && sommaNumeri % 2 == 1) {
-    console.log("pcWin");
+    console.log("Pc vince");
 } else if (sceltaUser == "dispari" && sommaNumeri % 2 == 1) {
-    console.log("userWin");
+    console.log("L'utente vince");
 }
 
 
