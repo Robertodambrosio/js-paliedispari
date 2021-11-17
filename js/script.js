@@ -40,7 +40,7 @@ console.log("l'utente ha scelto: " + sceltaUser);
 
 
 const numeroUser = parseInt(prompt("Inserisci un numero da 1 a 5"));
-    if (numeroUser > 5) {
+    if (numeroUser < 1 || numeroUser > 5) {
         alert("Devi scegliere un numero da 1 a 5 cretino!")
     }
 console.log("l'utente ha scelto " + numeroUser);
