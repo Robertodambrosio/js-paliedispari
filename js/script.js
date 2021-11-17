@@ -28,7 +28,7 @@
 // Dichiariamo chi ha vinto.
 
 const sceltaUser = prompt("Pari o dispari?");
-    if (sceltaUser != "pari" && "dispari") {
+    if (sceltaUser != "pari" && sceltaUser != "dispari") {
         alert("Devi scegliere pari o dispari babbuino!")
     }
 console.log("l'utente ha scelto: " + sceltaUser);
